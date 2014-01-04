@@ -1,3 +1,6 @@
+;Script made by hell of the devil
+;for the use on #dogec0in on irc.ringoflightning.net
+
 menu nicklist {
   $iif((($chan == #dogec0in) || ($chan == #dogec0in-vip)), $null, $style(2)) Dogec0in
   .Tip $1- $+ :/tip $1-
