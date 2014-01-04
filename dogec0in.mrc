@@ -16,8 +16,14 @@ menu channel {
 
 alias tip {
   var %i 1
-  set %sametoall $$?="Give them all the same amount? yes/no"
-
+  if ($0 > 1) {
+    set %sametoall $$?="Give them all the same amount? yes/no"
+  }
+  
+  if ($0 < 2) {
+    set %sametoall no
+  }
+  
   if (%sametoall == yes) {
     set %amountofdoge $$?="How much doge would you like to send to them?"
     while (%i <= $0) {
