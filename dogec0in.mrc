@@ -1,5 +1,7 @@
 ;Script made by hell of the devil
 ;for the use on #dogec0in on irc.ringoflightning.net
+; how to use! all the options are done in the popup menus of mirc, just right click in the channel or nicklist and it is under the Dogec0in menu 
+
 
 menu nicklist {
   $iif((($chan == #dogec0in) || ($chan == #dogec0in-vip)), $null, $style(2)) Dogec0in
